@@ -1,10 +1,6 @@
 - [Project summary](#da-design-server)
   - [Purpose](#purpose)
   - [Requirements](#requirements)
-  - [How to install](#how-to-install)
-- [How to use](#how-to-use)
-- [Version History](#version-history)
-- [Contributor](#contributor)
 - [License](#license)
 
 ---
@@ -23,6 +19,16 @@
 케이션을 만들어볼 수 있을지 설계한다.
 
 #### Purpose
+뇌졸중 데이터셋을 통해 뇌졸중 영향 요소로 나이, 고혈압 유무, 당뇨병 유무 를 파악
+유발 원인인 고혈압, 당뇨병을 예방 하기위해선 영양학 적으로 검증된 Dash 식단을 통한 식이 요법 필요
+따라서 다양한 식이 요법을 영양소 함량과 이름 으로 구분해둔 데이터셋의 군집화를 통해 여러 요리법중 각각의 식이 요법에 맞는 
+요리법을 구분해내는 모델 생성과, 이를 통해 재료와 영향요소를 입력하면 고혈압, 당뇨 환자에게 맞는 식단 제공하는 등의 서비스를 담은 
+어플리케이션 개발 등에 응용 가능할 것이다.
 
+#### Requirements
+scikitlean
+pandas
+seaborn
+matplotlib
 
 
